@@ -22,22 +22,31 @@ header {
 }
 
 header > h1 {
-    border: 1px dotted black;
+
+}
+
+header > nav {
+
 }
 
 header > nav > a {
-    color: black;
+    background-color: black;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     border: 1px solid black;
     border-radius: 5px;
     padding: 2px;
+    text-align: center;
 }
 
 header > nav > a:hover {
-    color: rgba(255, 255, 255, 0.678);
-    border-color: rgba(255, 255, 255, 0.678);
+    background-color: white;
+    color: rgba(0, 0, 0, 0.678);
+    transition: background-color .4s;
 }
 main {
     background-color: whitesmoke;
     margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
 }
