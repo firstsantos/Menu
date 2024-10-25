@@ -19,6 +19,8 @@ header {
     background-color: grey;
     color: white;
     padding: 10px;
+    
+    display: flex;
 }
 
 header > h1 {
@@ -33,7 +35,6 @@ header > nav > a {
     background-color: black;
     color: rgb(255, 255, 255);
     text-decoration: none;
-    border: 1px solid black;
     border-radius: 5px;
     padding: 2px;
     text-align: center;
