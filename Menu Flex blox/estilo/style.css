@@ -21,14 +21,18 @@ header {
     padding: 10px;
     
     display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header > h1 {
-
+    
 }
 
 header > nav {
-
+    display: flex;
+    flex-flow: row wrap;
 }
 
 header > nav > a {
@@ -36,7 +40,8 @@ header > nav > a {
     color: rgb(255, 255, 255);
     text-decoration: none;
     border-radius: 5px;
-    padding: 2px;
+    padding: 7px;
+    margin: 5px;
     text-align: center;
 }
 
