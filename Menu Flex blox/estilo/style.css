@@ -21,15 +21,20 @@ header {
     padding: 10px;
     
     display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header > h1 {
-    
+    flex: 0 0 90px;
+    text-shadow: 1.5px 1.5px 0px black;
 }
 
 header > nav {
     display: flex;
     flex-flow: row wrap;
+    justify-content: flex-end;
 }
 
 header > nav > a {
@@ -52,4 +57,5 @@ main {
     margin: 10px;
     padding: 10px;
     border-radius: 10px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.678);
 }

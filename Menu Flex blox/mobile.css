@@ -5,5 +5,9 @@ header, header > nav {
 }
 
 header > nav {
-    
+    flex-basis: 50px;
+}
+
+header > nav > a {
+    width: 90vw;
 }
